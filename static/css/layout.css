@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:  sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+
+  
+
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .maincontainer {
+    margin-top: 10;
+    width:100%;
+    height:560px;
+    margin: 0;
+    background-color: rgb(90, 126, 128);
+    color: #f1f1f1;
+  }
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+    height: 520px;
+    background-color: blue;
+    border: solid black;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float:right;
+    width: 30%;
+    background-color: #0cbeeb;
+    height: 300px;
+    border-color: solid red;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  
+  
+
+  .button{
+      height:200px;
+      width:300px;
+      padding-top: 30px;
+             
+
+  }
+  
+
+  
+  
+
+  
