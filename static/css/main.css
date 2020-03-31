@@ -19,7 +19,7 @@
 
   
   
-  .leftfloat {
+  .rightfloat {
     float:right;
     width:25%;
     background-color:#FFA500;
@@ -27,9 +27,9 @@
     padding:15px;
   
   }
-  .rightfloat {
-    float:right;
-    width:25%;
+  .leftfloat {
+    float:left;
+    width:75%;
     background-color:#FFA500;
     height:530px;
     padding:15px;
