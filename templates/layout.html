@@ -1,0 +1,44 @@
+
+{%load  static  %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'css/layout.css'%}"/>
+<link rel="stylesheet" href="{% static 'css/button.css'%}"/>
+<link rel="stylesheet" href="{% static 'css/search.css'%}"/>
+<link rel="stylesheet" href="{% static 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'%}">
+<link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'%}">
+<link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'%}"/>
+
+</head>
+<body>
+{%include 'nav.html'%}
+<div class="maincontainer">
+             <h2>Graph</h2>
+        <div class="leftcolumn"></div>
+        <div class="rightcolumn">
+           <div class="search">
+
+               <form >
+               <input type="text" name="" placeholder="Type....">
+               <input type="submit" name="" value="search">
+               </form>
+            </div>
+
+            <div class="button" >
+
+               <button class="myButton">PREDICT</button>
+                <button class="myButton">INVEST</button>
+            </div> 
+
+
+        
+      
+    </div>
+  
+</div>
+
+
+
+</body>
+</html>
