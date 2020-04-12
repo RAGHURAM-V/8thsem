@@ -1,11 +1,12 @@
 from django.urls import path
-from . import views
+from  . import views
 
 
 urlpatterns = [
+     path('',views.index),
+     path('',views.insidelayout),
+     path('',views.chart),
      
-     path('',views.chart_view),
-
      
     
     

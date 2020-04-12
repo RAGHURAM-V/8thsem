@@ -2,9 +2,15 @@ from django.shortcuts import render
 
 
 
-def chart_view(request):
-    print(request.headers)
-    return render(request, "charts.html",{})
+def index(request):
+    return render(request,'index.html')
+
+def insidelayout(request):
+    return render(request,'layout.html')
+
+def chart(request):
+    return render(request,'charts.html')
+
 
 
 
