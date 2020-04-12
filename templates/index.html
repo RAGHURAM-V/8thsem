@@ -1,0 +1,48 @@
+{%load static %}
+<!Doctype html>
+<html>
+      <head>
+       <link rel="stylesheet" href="{% static 'css/index.css' %}">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      </head>
+ <body background="{% static 'image/bg.webp'%}">
+  
+  <div style="width:100%;height:50px;">
+  
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="font-family:sans-serif;">Trading</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1 </a></li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+       <div class="picture">
+         <img id="top" src="{% static 'image/stockb.jpg' %}"></img>
+       </div>
+  
+<div  class="wrapper"> 
+     <div class="row" >
+
+       <li><a href="{%static 'image/stock7.jpg'%}" id="link1"><h3>Google</h3></a></li>      <li><a href="#two" id="link2">Accenture</a></li>
+          <li><a href="#three" id="link3">Hackerrank</a></li>   <li><a href="#four" id="link4">Stocks</a></li>
+
+          <a href="#"><h3>Comptia</h3></a> <a href="#"><h3>Hills </h3></a>
+
+  </div>
+</div>
+
+</body>
+</html>
